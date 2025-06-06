@@ -41,7 +41,7 @@ export default function BlogPost() {
               <section>
                 <h2 className="text-3xl font-bold mb-4">Introduction</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  In today's digital landscape, building scalable backend systems is crucial for handling growing user bases and increasing data loads. This article explores the key principles and best practices for creating robust, scalable backend systems using Node.js, drawing from real-world experiences in fintech applications.
+                  In today&apos;s digital landscape, building scalable backend systems is crucial for handling growing user bases and increasing data loads. This article explores the key principles and best practices for creating robust, scalable backend systems using Node.js, drawing from real-world experiences in fintech applications.
                 </p>
               </section>
 
@@ -97,7 +97,7 @@ export default function BlogPost() {
                   <div>
                     <h3 className="text-2xl font-semibold mb-3">1. Asynchronous Programming</h3>
                     <p className="text-gray-700 leading-relaxed mb-4">
-                      Leveraging Node.js's non-blocking I/O model is crucial for handling concurrent requests efficiently.
+                      Leveraging Node.js&apos;s non-blocking I/O model is crucial for handling concurrent requests efficiently.
                     </p>
                     <pre className="bg-gray-100 p-4 rounded-lg overflow-x-auto text-sm">
                       {`async function processRequest(req, res) {
