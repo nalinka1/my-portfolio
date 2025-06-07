@@ -1,13 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-    output: 'export',
+    reactStrictMode: true,
     images: {
-        unoptimized: true, // This disables the image optimization API
+        unoptimized: true,
     },
     eslint: {
-        ignoreDuringBuilds: true,  // Disables linting during the build
-    }
+        ignoreDuringBuilds: true,
+    },
+    // No experimental.appDir here
 };
 
 export default nextConfig;
